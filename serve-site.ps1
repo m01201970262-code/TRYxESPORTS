@@ -1,4 +1,4 @@
-$root = 'C:\Users\Mohanad\tryxesports-site'
+$root = 'C:\Users\Mohanad\Desktop\tryxesports-site'
 $prefix = 'http://127.0.0.1:8000/'
 $listener = [System.Net.HttpListener]::new()
 $listener.Prefixes.Add($prefix)
